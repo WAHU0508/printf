@@ -19,14 +19,10 @@ int print_c(va_list c);
 int print_s(va_list s);
 int print_d(va_list d);
 int print_i(va_list i);
-<<<<<<< HEAD
 int print_b(va_list b);
-
-=======
 int print_o(va_list o);
 int print_u(va_list u);
 int print_x(va_list x);
 int print_X(va_list X);
->>>>>>> 7d17c10a0d9223bd64b70127d174e37dc189381a
 #endif  /* _MAIN_H */
 

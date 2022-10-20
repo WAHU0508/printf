@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #ifndef _MAIN_H_
 #define _MAIN_H_
 
@@ -20,6 +21,10 @@ typedef struct print
 	int (*f)(va_list, char *, unsigned int);
 } print_t;
 
+=======
+#ifdef MAIN_H
+#define MAIN_H
+>>>>>>> 0433b8269aff7d79619c948904a05ea0f0f79ed0
 int _printf(const char *format, ...);
 
 #endif

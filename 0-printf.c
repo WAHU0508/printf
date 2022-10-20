@@ -40,8 +40,6 @@ int _printf(const char *format,...)
 					buff[j] = '%';
 					j++;
 					break;
-				default:
-					printf("Default");
 			}
 		}
 		else
@@ -53,5 +51,6 @@ int _printf(const char *format,...)
 	}
 	fwrite(buff, j, 1, stdout);
 	va_end(ap);
-	return j;
+	free(buff);
+	return j+1;
 }
